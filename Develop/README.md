@@ -1,4 +1,4 @@
-# t
+# readme generator
 
   
     ![badge](https://img.shields.io/badge/License-mit-red.svg)
@@ -46,5 +46,7 @@
   
   ## [Questions](#table-of-contents)
   Please contact me using the following links:
-  [GitHub](https://github.com/t)
-  [Email: t](mailto:t)
+  
+  [GitHub](https://github.com/kenesei91)
+
+  [Email: keneilo91@yahoo.com](mailto:keneilo91@yahoo.com)
