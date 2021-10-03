@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== 'no license') {
     return `
-    [${license}](https://choosealicense.com/licenses/${license})
+    [${license}](https://opensource.org/licenses//${license})
     `;
   }else {
     return ' ';
