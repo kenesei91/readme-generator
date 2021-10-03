@@ -1,7 +1,7 @@
 # Professional-Readme-Generator
 
   
-    ![badge](https://img.shields.io/badge/License-mit-red.svg)
+  ![badge](https://img.shields.io/badge/License-mit-red.svg)
     
 
   ## Table-of-Contents
@@ -14,7 +14,7 @@
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  My project is a README generator. This project enables users to generate a README simply with the use of command line, without the application of proper markdown.
+   My project is a README generator. This project enables users to generate a README simply with the use of command line, without the application of proper markdown.
   This project was created to enable users create a readme without browser javascript. Also, this project was created to ensure that users gave a proper summary and detailed information about a certain project.
   This README generator will allow the user to answer a series of specific questions and create a professional complete README based on their responses. In return, users will have a descriptive and informative project.
 
@@ -29,12 +29,12 @@
   [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
   
   
-    ## [License](#table-of-contents)
+  ## [License](#table-of-contents)
     
-    The application is covered under the following license:
+  The application is covered under the following license:
 
-    
-    [mit](https://choosealicense.com/licenses/mit)
+  
+  [mit](https://choosealicense.com/licenses/mit)
     
     
 

@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== 'no license') {
     return `
-    ![badge](https://img.shields.io/badge/License-${license}-red.svg)
+  ![badge](https://img.shields.io/badge/License-${license}-red.svg)
     `;
   }else {
     return ' ';
@@ -14,8 +14,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'no license') {
-    return `
-    [${license}](https://opensource.org/licenses//${license})
+  return `
+  [${license}](https://choosealicense.com/licenses/${license})
     `;
   }else {
     return ' ';
@@ -26,12 +26,12 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'no license') {
-    return `
-    ## [License](#table-of-contents)
+  return `
+  ## [License](#table-of-contents)
     
-    The application is covered under the following license:
+  The application is covered under the following license:
 
-    ${renderLicenseLink(license)}
+  ${renderLicenseLink(license)}
     `;
   }else {
     return ' ';
