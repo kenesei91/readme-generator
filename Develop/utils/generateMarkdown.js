@@ -95,6 +95,10 @@ function generateMarkdown(data) {
   [GitHub](https://github.com/${data.githubUsername})
 
   [Email: ${data.email}](mailto:${data.email})
+
+  ## [Screen Demo](#table-of-contents)
+
+  [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
 `;
 }
 
