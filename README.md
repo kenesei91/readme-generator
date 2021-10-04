@@ -33,10 +33,10 @@ Other than creating a readme file, this project required the use of certain prom
 ## Project Visual
 
 ![Project-Picture](./images/passgen1.png)
-- [x]Showing the originial state of the app
+- Showing the originial state of the app
 
 ![Project-Picture](./images/passgen2.png)
-- [x]Showing the state of the app with other features including screen demo
+- Showing the state of the app with other features including screen demo
 
 
 ## Github pages and links
