@@ -59,10 +59,10 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Screen Demo](#demo)
   
   ## [Description](#table-of-contents)
   ${data.what}

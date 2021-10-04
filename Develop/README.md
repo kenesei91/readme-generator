@@ -8,10 +8,10 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Screen Demo](#demo)
   
   ## [Description](#table-of-contents)
   My project is a README generator. This project enables users to generate a README simply with the use of command line, without the application of proper markdown.
@@ -22,7 +22,7 @@
   A repository link has been provided  below. Users can download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal. Open the file in VS Code or IDE of your choiceh. Once the terminal is open, navigste to the root folder 'readme-generator', and run the app.
 
   ## [Usage](#table-of-contents)
-  A repository link has been provided  below. Users can download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal. Open the file in VS Code or IDE of your choiceh. Once the terminal is open, navigste to the root folder 'readme-generator', and run the app.
+  After installation is complete, run the following code: ‘node inex.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your file under the ‘develop’ folder called ‘README.md’. It’s generated in mark down syntax so you can copy and paste that code into your project!
   
   For more information on how to add screenshots for examples, visit the following website:
   
@@ -40,7 +40,9 @@
 
   ## [Contributing](#table-of-contents)
 
-   
+  
+  Contributions are not accepted at this time.
+    
   
 
   ## [Tests](#table-of-contents)
@@ -52,3 +54,7 @@
   [GitHub](https://github.com/kenesei91)
 
   [Email: keneilo91@yahoo.com](mailto:keneilo91@yahoo.com)
+
+  ## [Screen Demo](#table-of-contents)
+
+  [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
