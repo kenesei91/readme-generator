@@ -32,10 +32,10 @@ Other than creating a readme file, this project required the use of certain prom
 
 ## Project Visual
 
-![Project-Picture](./passgen1.png)
+![Project-Picture](./images/passgen1.png)
 - [x]Showing the originial state of the app
 
-![Project-Picture](./passgen2.png)
+![Project-Picture](./images/passgen2.png)
 - [x]Showing the state of the app with other features including screen demo
 
 
