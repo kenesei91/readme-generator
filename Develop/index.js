@@ -125,28 +125,9 @@ const questions = [
         type: 'confirm',
         name: 'confirmContributers',
         message: 'Would you like to allow other developers to contribute?',
-        default: true
+        default: false
     },
-    {
-        type: 'input',
-        name: 'contribute',
-        message: 'Please provide guidelines for contributing. (Required)',
-        when: ({ confirmContributers }) => {
-            if (confirmContributers) {
-                return true;
-            } else {
-                return false;
-            }
-        },
-        validate: contributerInput => {
-            if (contributerInput) {
-                return true;
-            } else {
-                console.log('Please enter contributer guidelines!');
-                return false;
-            }
-        }
-    },
+    
     {
         type: 'input',
         name: 'test',

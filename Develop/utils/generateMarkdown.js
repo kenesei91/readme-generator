@@ -1,3 +1,14 @@
+// Function to return a message if user doesn't want contributors
+function renderContributingSection(confirmContributers) {
+  if (confirmContributers) {
+    return `
+  Contributions are not accepted at this time.
+    `;
+  } else {
+    return ' ';
+  }
+}
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -71,6 +82,8 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## [Contributing](#table-of-contents)
+
+  ${renderContributingSection(data.confirmContributers, data.contribute)}
   
 
   ## [Tests](#table-of-contents)
