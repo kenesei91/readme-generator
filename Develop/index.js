@@ -119,7 +119,8 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license will you use for your project?',
-        choices: ['agpl', 'apache', 'mit', 'no license']
+        choices: ['agpl', 'apache', 'mit', 'no license'],
+        default: 'apache'
     },
     {
         type: 'confirm',
@@ -148,7 +149,7 @@ const questions = [
 
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./README.md', fileContent, err => {
+        fs.writeFile('./dist/generate-README.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;
@@ -165,23 +166,24 @@ const writeFile = fileContent => {
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
-    .then(readmeData => {
+    /*.then(readmeData => {
         return readmeData;
+    })*/
+    .then(readmeData => {
+        console.log(readmeData);
+        return generateMarkdown(readmeData);
+    })
+    .then(pageMD => {
+        return writeFile(pageMD);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse.message);
+    })
+    .catch(err => {
+        console.log(err);
     })
 }
 
 // Function call to initialize app
 init()
-.then(readmeData => {
-    console.log(readmeData);
-    return generateMarkdown(readmeData);
-})
-.then(pageMD => {
-    return writeFile(pageMD);
-})
-.then(writeFileResponse => {
-    console.log(writeFileResponse.message);
-})
-.catch(err => {
-    console.log(err);
-})
+
