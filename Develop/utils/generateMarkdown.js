@@ -1,7 +1,7 @@
 // Function to return a message if user prefers demovor not
 function renderScreenDemoSection(confirmQuestionaireDemo) {
   if (confirmQuestionaireDemo) {
-    return "![demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
+    return "[Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
   }else {
     return "No problem, you can contact using my email address if you decide otherwise"
   }
@@ -102,8 +102,6 @@ function generateMarkdown(data) {
 
   ## [Screen Questionaire Demo](#table-of-contents)
   ${renderScreenDemoSection(data.confirmQuestionaireDemo)}
-
-  [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
 `;
 }
 

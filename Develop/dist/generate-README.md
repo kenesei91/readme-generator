@@ -1,7 +1,7 @@
 # Professional-Readme-Generator
 
   
-  ![badge](https://img.shields.io/badge/License-mit-red.svg)
+  ![badge](https://img.shields.io/badge/License-MIT-red.svg)
     
 
   ## Table-of-Contents
@@ -30,7 +30,7 @@
   The application is covered under the following license:
 
   
-  [mit](https://choosealicense.com/licenses/mit)
+  [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
@@ -41,7 +41,7 @@
     
   
   ## [Tests](#table-of-contents)
-     To test this app, open the file in IDE of choice. Open the terminal, navigate into the root folder 'readme-generator’, and run ‘node index.js’. Answer the prompts required and view the preview of the ‘generate-README.md’ file in the ‘developp’ folder, in the 'dist' subfolder.
+  To test this app, open the file in IDE of choice. Open the terminal, navigate into the root folder 'readme-generator’, and run ‘node index.js’. Answer the prompts required and view the preview of the ‘generate-README.md’ file in the ‘developp’ folder, in the 'dist' subfolder.
   
   ## [Contact Me](#table-of-contents)
   Please contact me using the links below:
@@ -51,6 +51,4 @@
   [Email: keneilo91@yahoo.com](mailto:keneilo91@yahoo.com)
 
   ## [Screen Questionaire Demo](#table-of-contents)
-  ![demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
-
   [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
