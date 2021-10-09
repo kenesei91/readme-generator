@@ -141,6 +141,13 @@ const questions = [
                 return false;
             }
         }
+    },
+
+    {
+        type: 'confirm',
+        name: 'confirmQuestionaireDemo',
+        message: 'Would you like to view the questionaire demo for this challenge',
+        default: true
     }
 ];
 

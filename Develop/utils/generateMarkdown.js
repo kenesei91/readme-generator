@@ -1,3 +1,12 @@
+// Function to return a message if user prefers demovor not
+function renderScreenDemoSection(confirmQuestionaireDemo) {
+  if (confirmQuestionaireDemo) {
+    return "(https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
+  }else {
+    return "No problem, you can contact using my email address if you decide otherwise"
+  }
+}
+
 // Function to return a message if user doesn't want contributors
 function renderContributingSection(confirmContributers) {
   if (confirmContributers) {
@@ -56,20 +65,20 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table-of-Contents
-  * [Description](#description)
-  * [Installation](#installation)
+  * [Project Description](#project description)
+  * [Project Installation](#project installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
+  * [Contributions](#contributions)
   * [Tests](#tests)
-  * [Questions](#questions)
-  * [Screen Demo](#demo)
+  * [Questions About the App](#questions about the app)
+  * [Screen Questionaire Demo](#screen questionaire demo)
   
-  ## [Description](#table-of-contents)
+  ## [Project Description](#table-of-contents)
   ${data.what}
   ${data.why}
   ${data.how}
 
-  ## [Installation](#table-of-contents)
+  ## [Project Installation](#table-of-contents)
   ${data.installation}
 
   ## [Usage](#table-of-contents)
@@ -77,22 +86,22 @@ function generateMarkdown(data) {
   
   ${renderLicenseSection(data.license)}
 
-  ## [Contributing](#table-of-contents)
+  ## [Contributions](#table-of-contents)
 
-  ${renderContributingSection(data.confirmContributers, data.contribute)}
+  ${renderContributingSection(data.confirmContributers)}
   
-
   ## [Tests](#table-of-contents)
   ${data.test}
   
-  ## [Questions](#table-of-contents)
-  Please contact me using the following links:
+  ## [Contact Me](#table-of-contents)
+  Please contact me using the links below:
   
   [GitHub](https://github.com/${data.githubUsername})
 
   [Email: ${data.email}](mailto:${data.email})
 
   ## [Screen Demo](#table-of-contents)
+  ${renderScreenDemoSection(data.confirmQuestionaireDemo)}
 
   [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
 `;
