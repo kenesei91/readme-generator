@@ -5,13 +5,13 @@
     
 
   ## Table-of-Contents
-  * [Project Description](#project description)
-  * [Project Installation](#project installation)
+  * [Project Description](#project-description)
+  * [Project Installation](#project-installation)
   * [Usage](#usage)
   * [Contributions](#contributions)
   * [Tests](#tests)
-  * [Questions About the App](#questions about the app)
-  * [Screen Questionaire Demo](#screen questionaire demo)
+  * [Contact Me](#Contact-me)
+  * [Screen Questionaire Demo](#screen-questionaire-demo)
   
   ## [Project Description](#table-of-contents)
   The project I have created is a README generator. This project enables users to generate a README simply with the use of command line, without using the regular option of a markdown.
@@ -41,7 +41,7 @@
     
   
   ## [Tests](#table-of-contents)
-  To test this app, open the file in IDE of choice. Open the terminal, navigate into the root folder 'readme-generator’, and run ‘node index.js’. Answer the prompts required and view the preview of the ‘generate-README.md’ file in the ‘developp’ folder, in the 'dist' subfolder.
+     To test this app, open the file in IDE of choice. Open the terminal, navigate into the root folder 'readme-generator’, and run ‘node index.js’. Answer the prompts required and view the preview of the ‘generate-README.md’ file in the ‘developp’ folder, in the 'dist' subfolder.
   
   ## [Contact Me](#table-of-contents)
   Please contact me using the links below:
@@ -50,7 +50,7 @@
 
   [Email: keneilo91@yahoo.com](mailto:keneilo91@yahoo.com)
 
-  ## [Screen Demo](#table-of-contents)
-  (https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
+  ## [Screen Questionaire Demo](#table-of-contents)
+  ![demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
 
   [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
