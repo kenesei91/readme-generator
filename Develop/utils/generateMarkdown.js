@@ -1,7 +1,7 @@
 // Function to return a message if user prefers demovor not
 function renderScreenDemoSection(confirmQuestionaireDemo) {
   if (confirmQuestionaireDemo) {
-    return "[Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
+    return "[Demo](https://watch.screencastify.com/v/j7ptLH17k1WUZvC0FEwA)";
   }else {
     return "No problem, you can contact using my email address if you decide otherwise"
   }
