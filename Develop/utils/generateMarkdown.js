@@ -1,7 +1,7 @@
 // Function to return a message if user prefers demovor not
 function renderScreenDemoSection(confirmQuestionaireDemo) {
   if (confirmQuestionaireDemo) {
-    return "(https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
+    return "![demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)";
   }else {
     return "No problem, you can contact using my email address if you decide otherwise"
   }
@@ -65,13 +65,13 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table-of-Contents
-  * [Project Description](#project description)
-  * [Project Installation](#project installation)
+  * [Project Description](#project-description)
+  * [Project Installation](#project-installation)
   * [Usage](#usage)
   * [Contributions](#contributions)
   * [Tests](#tests)
-  * [Questions About the App](#questions about the app)
-  * [Screen Questionaire Demo](#screen questionaire demo)
+  * [Contact Me](#Contact-me)
+  * [Screen Questionaire Demo](#screen-questionaire-demo)
   
   ## [Project Description](#table-of-contents)
   ${data.what}
@@ -100,7 +100,7 @@ function generateMarkdown(data) {
 
   [Email: ${data.email}](mailto:${data.email})
 
-  ## [Screen Demo](#table-of-contents)
+  ## [Screen Questionaire Demo](#table-of-contents)
   ${renderScreenDemoSection(data.confirmQuestionaireDemo)}
 
   [Demo](https://watch.screencastify.com/v/BxUZL2DKWqsrqHPWjlj2)
